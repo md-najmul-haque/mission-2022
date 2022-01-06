@@ -7,11 +7,14 @@ body{
 }
 #heading-text{
     font-family: 'Yeseva One', cursive;
+    margin: 0;
+    padding: 0px 0px 0px 3px;
+    box-sizing: border-box;
+    box-shadow: -3px 0px #FF5959;
 }
 .my-mission{
     display: flex;
     margin: auto;
-    
     margin-top: 100px;
 }
 .mission-brief{
@@ -19,7 +22,9 @@ body{
     
 }
 .top-heading-div{
-    box-shadow: -3px 0px #FF5959;
+    
+    margin:0;
+    padding: 0px;
     
 }
 .top-heading{
@@ -98,13 +103,7 @@ body{
 }
 .section-img {
     width: 35%;
-    /* background-image: url(./images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: 100px 5px; 
-    background-position: 150px; */
-
-}
+  }
 
 .section-img img{
     width: 100%;
