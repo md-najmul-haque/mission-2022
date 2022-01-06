@@ -9,17 +9,22 @@ body{
 }
 .mission-brief{
     width: 50%;
-    margin-top: 60px;
+    margin-top: 70px;
 }
-
+.top-heading-div{
+    box-shadow: -3px 0px #FF5959;
+    
+}
 .top-heading{
     font-size: 60px;
-    margin-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 .mission2022{
     font-size: 60px;
     color: #FFAD5A;
     margin: 0px;
+    padding: 0px;
 }
 
 .my-picture{
@@ -39,6 +44,7 @@ body{
     padding: 10px 30px;
     background-color: tomato;
     color:white;
+    border-radius: 5px;
     
     
  
@@ -51,4 +57,36 @@ body{
 }
 .scroll-down{
     margin-top: 40px;
+}
+
+.heading-two{
+    font-size: 70px;
+    text-align: center;
+}
+.heading-two span{
+    color: #FFAD5A;
+}
+
+.missin{
+    
+    background-color: rgb(237, 245, 246);
+    
+    
+}
+.section-two-img img{
+    width: 30%;
+}
+.vission{
+   margin: 0px 60px;
+    background-color: rgb(255, 238, 238);
+}
+.goal{
+    background-color: #FFF4D6;
+    
+}
+.section-two-div{
+    border-radius: 10px;
+    width: 33.33%;
+    padding: 20px;
+    text-align: justify;
 }
