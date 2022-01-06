@@ -1,6 +1,8 @@
 body{
     margin: 0 auto;
     padding: 0;
+    width: 80%;
+
     font-family: 'Poppins', sans-serif;
 }
 #heading-text{
@@ -9,11 +11,12 @@ body{
 .my-mission{
     display: flex;
     margin: auto;
-    width: 80%;
+    
+    margin-top: 100px;
 }
 .mission-brief{
     width: 50%;
-    margin-top: 70px;
+    
 }
 .top-heading-div{
     box-shadow: -3px 0px #FF5959;
@@ -93,10 +96,6 @@ body{
     padding: 20px;
     text-align: justify;
 }
-
-.section-top-space{
-    margin-top: 100px;
-}
 .section-img {
     width: 35%;
     /* background-image: url(./images/shapes/shape-1.png);
@@ -111,10 +110,14 @@ body{
     width: 100%;
 }
 
+#group-study{
+    margin-left: 80px;
+}
+
 .section-text{
 
     width: 65%;
-    margin-left: 80px;
+    
     margin-top: 80px;
     padding: 30px;
 }
@@ -129,5 +132,115 @@ body{
 
     font-size: 18px;
     margin-bottom: 40px;
+    text-align: justify;
+   
+}
+
+.contact-top-space{
+    margin-top: 100px;
+}
+
+.contact-parent-div{
+    display: flex;
+    
+}
+
+.address-div{
+    background-color: rgb(237, 245, 246);
+    border-radius: 10px;
+   
+}
+
+.contact-div{
+    background-color: #FFF4D6;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.contact-me{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.name-section{
+    display: flex;
+   
+}
+.last-name{
+    margin-left: 50px;
+    
+
+}
+
+.contact-sub-heading {
+    
+    font-size: 30px;
+    text-align: left;
+}
+.address-div p{
+    margin: 0;
+}
+.email-section{
+    margin: 10px 0px;
+}
+#fname{
+    height: 30px;
+
+}
+#lname{
+height: 30px;
+}
+#email{
+    width: 400px;
+    height: 30px;
+}
+#message{
+    height: 200px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+::placeholder {
+   text-align: center;
+  }
+
+.submit-btn{
+    text-decoration: none;
+    padding: 15px 35px;
+    background-color: #FF5959;
+    color:white;
+    border-radius: 5px;
+    margin-left: 145px;
+    
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+
+.footer-head-color{
+    font-family: 'Lobster Two', cursive;
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    
+
+}
+
+.footer-head-color span{
+    color: #FF5959;
+
+}
+
+ .footer-text-color {
+    font-family: 'Manrope', sans-serif;
+    color:#FFFFFF;
+    margin: 0px;
+    font-size: 14px;
+    
 
 }
