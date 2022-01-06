@@ -1,0 +1,54 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.my-mission{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+.mission-brief{
+    width: 50%;
+    margin-top: 60px;
+}
+
+.top-heading{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.mission2022{
+    font-size: 60px;
+    color: #FFAD5A;
+    margin: 0px;
+}
+
+.my-picture{
+    width: 80%;
+    
+    
+}
+
+.my-picture img{
+    width: 40%;
+    margin-left: 300px;
+    
+}
+
+.learn-more-btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: tomato;
+    color:white;
+    
+    
+ 
+}
+.brief-about-me{
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: justify;
+   
+}
+.scroll-down{
+    margin-top: 40px;
+}
